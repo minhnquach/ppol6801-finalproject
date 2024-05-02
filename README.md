@@ -22,7 +22,11 @@ The initial raw data for this project was stored on a private S3 bucket that was
 
 https://arxiv.org/abs/2001.08435
 
-The input directory in this repository contains the processed and extracted data for the subreddits and timeframe of interest, and stored in a parquet format.
+The input directory in this repository contains the processed and extracted data for the subreddits and timeframe of interest, and stored in a parquet format:
+- ab_coms.parquet: which contains all the comments from r/abortion from 03/01/2022 to 08/31/2022
+- ab_subs.parquet: which contains all the submissions from r/abortion from 03/01/2022 to 08/31/2022
+- birthcontrol_coms.parquet: which contains all the comments from r/birthcontrol from 03/01/2022 to 08/31/2022
+- birthcontrol_coms.parquet: which contains all the submissions from r/birthcontrol from 03/01/2022 to 08/31/2022
 
 ## Output
 
